@@ -4,8 +4,8 @@ const { v4: uuid } = require("uuid");
 const { readMessages, writeMessages } = require("../utils/helpers");
 
 router.get("/", (req, res) => {
-  const teams = readMessages();
-  res.status(200).json(teams);
+  const messages = readMessages();
+  res.status(200).json(messages);
 });
 
 module.exports = router;

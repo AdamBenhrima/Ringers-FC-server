@@ -1,11 +1,30 @@
 [
   {
+    "id": "7aadf462-2bb9-4352-bc65-9f8f9ead65ee",
+    "teamName": "Claremont Gorillas",
+    "teamEmail": "adam@hotmail.com",
+    "teamTelephone": "0789456123",
+    "postcode": "SW11 3HW",
+    "level": "Casual",
+    "positionNeeded": {
+      "Goalkeeper": false,
+      "Defender": true,
+      "Midfielder": true,
+      "Forward": false
+    }
+  },
+  {
     "id": "9b4f79ea-0e6c-4e59-8e05-afd933d0b3d3",
     "teamName": "Claremont Gorillas",
     "teamEmail": "claremont.gorillas17@gmail.com",
     "teamTelephone": "+44 7490 600 694",
-    "location ": "SW19",
+    "postcode ": "SW19",
     "level": "Competitive Amateur",
-    "needed": "Goalkeeper, Defender, Midfielder, Attacker"
+    "positionNeeded": {
+      "Goalkeeper": true,
+      "Defender": true,
+      "Midfielder": true,
+      "Forward": true
+    }
   }
 ]
